@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+
+.formstyle{
+    height: 350px;
+    width: 350px;
+    border:3px solid rgb(116, 116, 184);
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(223, 224, 224);
+}
+
+.contentbox{
+    padding: 25px;
+    padding-left: 10px;   
+
+}
+
+.contentbox input[type="file"],input[type="text"]{
+ 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+} 
+input[type="submit"]{
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#targetlayer{
+    padding: 50px;
+}
